@@ -33,7 +33,6 @@ class OrderCalculator {
         // Calculate total order amount
     }
 }
-
 class OrderPersistence {
     public void saveToDatabase() {
         // Save order details to the database
@@ -44,13 +43,11 @@ class OrderPersistence {
 interface PaymentProcessor {
     void processPayment(Payment payment);
 }
-
 class CreditCardPaymentProcessor implements PaymentProcessor {
     public void processPayment(Payment payment) {
         // Process credit card payment
     }
 }
-
 class PayPalPaymentProcessor implements PaymentProcessor {
     public void processPayment(Payment payment) {
         // Process PayPal payment
@@ -58,11 +55,9 @@ class PayPalPaymentProcessor implements PaymentProcessor {
 }
 
 ### LSP
-
 abstract class Shape {
     public abstract int calculateArea();
 }
-
 class Rectangle extends Shape {
     protected int width;
     protected int height;
@@ -79,7 +74,6 @@ class Rectangle extends Shape {
         return width * height;
     }
 }
-
 class Square extends Shape {
     private int sideLength;
     
@@ -96,24 +90,19 @@ class Square extends Shape {
 interface Printer {
     void print();
 }
-
 interface Scanner {
     void scan();
 }
-
 interface FaxMachine {
     void fax();
 }
-
 class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
     public void print() {
         // Print document
     }
-    
     public void scan() {
         // Scan document
     }
-    
     public void fax() {
         // Fax document
     }
@@ -122,7 +111,6 @@ class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
 ### DIP
 class OrderProcessor {
     private OrderRepository orderRepository;
-    
     public OrderProcessor(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
