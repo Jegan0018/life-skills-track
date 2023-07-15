@@ -64,7 +64,9 @@ class PayPalPaymentProcessor implements PaymentProcessor {
 ### LSP
 
 abstract class Shape {
+
     public abstract int calculateArea();
+    
 }
 class Rectangle extends Shape {
     protected int width;
@@ -81,6 +83,7 @@ class Rectangle extends Shape {
     public int calculateArea() {
         return width * height;
     }
+    
 }
 class Square extends Shape {
     private int sideLength;
@@ -104,22 +107,28 @@ interface Scanner {
 interface FaxMachine {
     void fax();
 }
+
 class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
+
     public void print() {
         // Print document
     }
+    
     public void scan() {
         // Scan document
     }
+    
     public void fax() {
         // Fax document
     }
+    
 }
 
 ### DIP
 
 class OrderProcessor {
     private OrderRepository orderRepository;
+    
     public OrderProcessor(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
