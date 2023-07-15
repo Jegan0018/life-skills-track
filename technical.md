@@ -28,6 +28,7 @@ High-level modules shouldn't be dependent on low-level modules, according to the
 Here are some of the code samples :
 
 ### SRP
+
 class OrderCalculator {
     public void calculateTotal() {
         // Calculate total order amount
@@ -41,6 +42,7 @@ class OrderPersistence {
 }
 
 ### OCP
+
 interface PaymentProcessor {
     void processPayment(Payment payment);
 }
@@ -56,6 +58,7 @@ class PayPalPaymentProcessor implements PaymentProcessor {
 }
 
 ### LSP
+
 abstract class Shape {
     public abstract int calculateArea();
 }
@@ -110,6 +113,7 @@ class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
 }
 
 ### DIP
+
 class OrderProcessor {
     private OrderRepository orderRepository;
     public OrderProcessor(OrderRepository orderRepository) {
