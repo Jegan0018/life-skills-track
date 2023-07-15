@@ -48,17 +48,23 @@ class OrderPersistence {
 ### OCP
 
 interface PaymentProcessor {
+
     void processPayment(Payment payment);
+    
 }
 class CreditCardPaymentProcessor implements PaymentProcessor {
+
     public void processPayment(Payment payment) {
         // Process credit card payment
     }
+    
 }
 class PayPalPaymentProcessor implements PaymentProcessor {
+
     public void processPayment(Payment payment) {
         // Process PayPal payment
     }
+    
 }
 
 ### LSP
@@ -69,6 +75,7 @@ abstract class Shape {
     
 }
 class Rectangle extends Shape {
+
     protected int width;
     protected int height;
     
@@ -86,6 +93,7 @@ class Rectangle extends Shape {
     
 }
 class Square extends Shape {
+
     private int sideLength;
     
     public void setSideLength(int sideLength) {
@@ -127,6 +135,7 @@ class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
 ### DIP
 
 class OrderProcessor {
+
     private OrderRepository orderRepository;
     
     public OrderProcessor(OrderRepository orderRepository) {
