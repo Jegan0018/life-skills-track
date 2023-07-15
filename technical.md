@@ -107,13 +107,19 @@ class Square extends Shape {
 
 ### ISP
 interface Printer {
+
     void print();
+    
 }
 interface Scanner {
+
     void scan();
+    
 }
 interface FaxMachine {
+
     void fax();
+    
 }
 
 class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
