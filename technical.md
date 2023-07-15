@@ -30,15 +30,19 @@ Here are some of the code samples :
 ### SRP
 
 class OrderCalculator {
+
     public void calculateTotal() {
         // Calculate total order amount
     }
+    
 }
 
 class OrderPersistence {
+
     public void saveToDatabase() {
         // Save order details to the database
     }
+    
 }
 
 ### OCP
