@@ -24,7 +24,113 @@ It is recommended under the Interface Segregation Principle (ISP) that clients n
 
 High-level modules shouldn't be dependent on low-level modules, according to the Dependency Inversion Principle (DIP). They ought to both rely on abstractions. Using dependency injection and inversion of control to separate modules and rely on abstractions rather than actual implementations are both encouraged by this approach. We achieve loose coupling, modularity, and simpler testing and maintenance of the codebase by following DIP during codebase remodelling.
 
+## Code Samples:
+Here are some of the code samples :
+
+### SRP
+class OrderCalculator {
+    public void calculateTotal() {
+        // Calculate total order amount
+    }
+}
+
+class OrderPersistence {
+    public void saveToDatabase() {
+        // Save order details to the database
+    }
+}
+
+### OCP
+interface PaymentProcessor {
+    void processPayment(Payment payment);
+}
+
+class CreditCardPaymentProcessor implements PaymentProcessor {
+    public void processPayment(Payment payment) {
+        // Process credit card payment
+    }
+}
+
+class PayPalPaymentProcessor implements PaymentProcessor {
+    public void processPayment(Payment payment) {
+        // Process PayPal payment
+    }
+}
+
+### LSP
+
+abstract class Shape {
+    public abstract int calculateArea();
+}
+
+class Rectangle extends Shape {
+    protected int width;
+    protected int height;
+    
+    public void setWidth(int width) {
+        this.width = width;
+    }
+    
+    public void setHeight(int height) {
+        this.height = height;
+    }
+    
+    public int calculateArea() {
+        return width * height;
+    }
+}
+
+class Square extends Shape {
+    private int sideLength;
+    
+    public void setSideLength(int sideLength) {
+        this.sideLength = sideLength;
+    }
+    
+    public int calculateArea() {
+        return sideLength * sideLength;
+    }
+}
+
+### ISP
+interface Printer {
+    void print();
+}
+
+interface Scanner {
+    void scan();
+}
+
+interface FaxMachine {
+    void fax();
+}
+
+class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
+    public void print() {
+        // Print document
+    }
+    
+    public void scan() {
+        // Scan document
+    }
+    
+    public void fax() {
+        // Fax document
+    }
+}
+
+### DIP
+class OrderProcessor {
+    private OrderRepository orderRepository;
+    
+    public OrderProcessor(OrderRepository orderRepository) {
+        this.orderRepository = orderRepository;
+    }
+}
+
 ## Conclusion
 
 The SOLID principles offer helpful guidance for codebase remodelling, to sum up. We produce code that is simpler to manage, maintain, and expand by using the Single Responsibility Principle (SRP), Open-Closed Principle (OCP), Liskov Substitution Principle (LSP), Interface Segregation Principle (ISP), and Dependency Inversion Principle (DIP). SOLID-guided codebase restructuring produces software systems that are more durable, adaptable, and scalable. Therefore, in order to enhance the codebase's quality and guarantee its long-term success, it is crucial to take these concepts into account.
 
+## References
+https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
