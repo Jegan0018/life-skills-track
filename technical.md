@@ -24,7 +24,7 @@ It is recommended under the Interface Segregation Principle (ISP) that clients n
 
 High-level modules shouldn't be dependent on low-level modules, according to the Dependency Inversion Principle (DIP). They ought to both rely on abstractions. Using dependency injection and inversion of control to separate modules and rely on abstractions rather than actual implementations are both encouraged by this approach. We achieve loose coupling, modularity, and simpler testing and maintenance of the codebase by following DIP during codebase remodelling.
 
-## Code Samples:
+## Code Samples
 Here are some of the code samples :
 
 ### SRP
