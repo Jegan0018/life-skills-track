@@ -28,37 +28,54 @@ High-level modules shouldn't be dependent on low-level modules, according to the
 Here are some of the code samples :
 
 ### SRP
+
 class OrderCalculator {
+
     public void calculateTotal() {
         // Calculate total order amount
     }
+    
 }
+
 class OrderPersistence {
+
     public void saveToDatabase() {
         // Save order details to the database
     }
+    
 }
 
 ### OCP
+
 interface PaymentProcessor {
+
     void processPayment(Payment payment);
+    
 }
 class CreditCardPaymentProcessor implements PaymentProcessor {
+
     public void processPayment(Payment payment) {
         // Process credit card payment
     }
+    
 }
 class PayPalPaymentProcessor implements PaymentProcessor {
+
     public void processPayment(Payment payment) {
         // Process PayPal payment
     }
+    
 }
 
 ### LSP
+
 abstract class Shape {
+
     public abstract int calculateArea();
+    
 }
 class Rectangle extends Shape {
+
     protected int width;
     protected int height;
     
@@ -73,8 +90,10 @@ class Rectangle extends Shape {
     public int calculateArea() {
         return width * height;
     }
+    
 }
 class Square extends Shape {
+
     private int sideLength;
     
     public void setSideLength(int sideLength) {
@@ -88,29 +107,43 @@ class Square extends Shape {
 
 ### ISP
 interface Printer {
+
     void print();
+    
 }
 interface Scanner {
+
     void scan();
+    
 }
 interface FaxMachine {
+
     void fax();
+    
 }
+
 class MultiFunctionPrinter implements Printer, Scanner, FaxMachine {
+
     public void print() {
         // Print document
     }
+    
     public void scan() {
         // Scan document
     }
+    
     public void fax() {
         // Fax document
     }
+    
 }
 
 ### DIP
+
 class OrderProcessor {
+
     private OrderRepository orderRepository;
+    
     public OrderProcessor(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
