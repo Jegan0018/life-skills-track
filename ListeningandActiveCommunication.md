@@ -1,4 +1,4 @@
-A1.
+## Question 1
  vital communication ability is active listening, which entails paying close attention, comprehending what the other person is saying, responding, and keeping it in mind. Being present, sympathetic, and involved in the discourse go beyond only hearing what is said. Following are six techniques for active listening:
 
 1. Give Your Full Attention: Put away all other activities and concentrate entirely on the speaker. Maintain eye contact, refrain from interjecting, and don't prepare your response while the other person is speaking. Demonstrate a sincere interest in what they have to say.
@@ -13,7 +13,7 @@ A1.
 
 6. Suspend Judgement: Be open-minded and refrain from drawing hasty or erroneous conclusions. To completely hear the speaker's viewpoint, active listening entails putting prejudices and preconceived ideas aside.
 
-2.
+## Question 2
 The important points can be summed up as follows using Fisher's paradigm of reflective listening:
 
 1. Empathetic Engagement: Reflective listening entails engaging with the speaker actively in a way that exhibits empathy and understanding. It seeks to emotionally engage with the speaker in addition to merely hearing the words.
@@ -24,7 +24,7 @@ The important points can be summed up as follows using Fisher's paradigm of refl
 
 4. Creating a Safe Setting: Fisher's paradigm emphasises the need of providing the speaker with a secure and judgment-free setting. This promotes direct and honest communication, especially in difficult or emotionally sensitive circumstances.
 
-3.
+## Question 3
 Although there are many other barriers to hearing, the following are some typical difficulties:
 
 1. Distractions: Outside variables that can detract attention and prevent active listening include noise, interruptions, and digital devices.
@@ -47,7 +47,7 @@ Although there are many other barriers to hearing, the following are some typica
 
 10. Lack of Feedback: Failure to ask questions or provide the speaker feedback may lead to misconceptions or poor communication.
 
-4.
+## Question 4
 There are various sensible ways one can use to enhance listening abilities:
 
 1. Engage in talks fully, paying attention to what is being said. Avoid multitasking and other forms of distraction.
@@ -58,7 +58,7 @@ There are various sensible ways one can use to enhance listening abilities:
 
 4. Asking clarifying questions will help to ensure that you have understood something completely.
 
-5.
+## Question 5
 People may adopt a passive communication style in a variety of circumstances, including:
 
 - Avoiding Conflict: People may become inactive and hold back on expressing their genuine thoughts or opinions when they desire to avoid conflict or arguments.
@@ -67,7 +67,7 @@ People may adopt a passive communication style in a variety of circumstances, in
 - Lack of Confidence: People with low self-esteem or confidence may opt for a passive strategy out of a fear that their ideas or opinions won't be acknowledged or valued.
 - Fear of Rejection: People may avoid situations out of fear of rejection or other unfavourable outcomes.
 
-6.
+## Question 6
 People may switch to aggressive communication styles in various situations, such as:
 
 - Feeling Threatened: People may act violently as a defence mechanism to protect themselves when they feel threatened, attacked, or challenged.
@@ -77,7 +77,7 @@ People may switch to aggressive communication styles in various situations, such
 - Need for Control: People who have a strong need to influence others or take control of a situation may communicate aggressively to attain what they want.
 - Reacting to Past Trauma: As a coping mechanism, aggressive communication can occasionally be sparked by the memory of past trauma or unresolved concerns.
 
-7.
+## Question 7
 People may switch to passive-aggressive communication styles in various situations, such as:
 
 - Expression of Frustration: People who are irritated or upset may use sarcasm, insults, or passive-aggressive humour to cover up their feelings.
@@ -87,7 +87,7 @@ People may switch to passive-aggressive communication styles in various situatio
 - Feeling Powerless: When someone feels helpless or unable to exert themselves directly, they may communicate in a passive-aggressive manner.
 - Passive-aggressive speech is sometimes used by people to hide their genuine feelings or to avoid showing them.
 
-8.
+## Question 8
 - Be Direct and Clear: Without being combative or passive, convey your wants and opinions in a clear and concise manner. To express your feelings and opinions in a forceful manner, use "I" expressions.
 
 - Active Listening: Pay attention to what others are saying and accept their points of view, even if you don't agree with them. To encourage frank discussion, give insightful responses.
