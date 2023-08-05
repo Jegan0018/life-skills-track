@@ -1,5 +1,5 @@
 ## Question 1
- vital communication ability is active listening, which entails paying close attention, comprehending what the other person is saying, responding, and keeping it in mind. Being present, sympathetic, and involved in the discourse go beyond only hearing what is said. Following are six techniques for active listening:
+Vital communication ability is active listening, which entails paying close attention, comprehending what the other person is saying, responding, and keeping it in mind. Being present, sympathetic, and involved in the discourse go beyond only hearing what is said. Following are six techniques for active listening:
 
 1. Give Your Full Attention: Put away all other activities and concentrate entirely on the speaker. Maintain eye contact, refrain from interjecting, and don't prepare your response while the other person is speaking. Demonstrate a sincere interest in what they have to say.
 
