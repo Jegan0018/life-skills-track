@@ -68,7 +68,7 @@ Celebrating successful habit completion is important because it:
 - **Lessen the satisfaction**: Disconnect bad habits from rewards. E.g., avoid entertainment until work is done to combat procrastination.
 
 ## Question 9
-###Pick one habit that you would like to do more of? What are the steps that you can take to make it make the cue obvious or the habit more attractive or easy and or response satisfying?
+### Pick one habit that you would like to do more of? What are the steps that you can take to make it make the cue obvious or the habit more attractive or easy and or response satisfying?
 
 I aim to develop the habit of regular meditation. To achieve this:
 
